@@ -1,0 +1,45 @@
+@media screen and (max-width: 700px) { 
+    header {
+        
+        
+       /*  background-image: url('/images/bg-header-mobile.png');
+        background-size: cover; */
+        .bg-header-desktop {
+            display: none;
+        }
+        .bg-header-mobile {
+            display: block;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+        .header-logo {
+        
+            margin-top: 30px;
+        
+        }
+
+        .header-text {
+            
+            max-width: 100%;
+            
+            h1 {
+                font-size: 3rem;
+                
+            }
+            p {
+                font-size: 1.4rem;
+                line-height: 2rem;
+                
+            }
+        }
+        .header-btns {
+            flex-direction: column;
+        }
+    }
+
+    .green-btn,.blue-btn {
+        width: 80vw;
+    }
+  
+}

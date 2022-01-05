@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+
+.container {
+    
+    overflow: hidden;
+    max-width: 1440px;
+    width: 1440px;
+
+    
+    
+    
+    
+}
+
+p {
+    
+    font-size: $fontSizeBody;
+    color: $colorGrayishBlue
+    
+}

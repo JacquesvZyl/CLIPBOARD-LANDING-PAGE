@@ -1,0 +1,29 @@
+.footer {
+    min-height: 120px;
+    display: flex;
+    background-color: #f5f6f8;
+    align-items: center;
+    justify-content: space-around;
+    
+    .footer-logo {
+        height: 40px;
+    }
+    .footer-links {
+        
+        gap: 4rem;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: $colorDarkGrayishBlue;
+            font-size: $fontSizeBody;
+        }
+    }
+
+    .social-media-icons {
+        display: flex;
+        gap: 2rem;
+    }
+
+}

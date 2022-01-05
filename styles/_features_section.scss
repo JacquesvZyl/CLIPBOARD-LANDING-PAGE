@@ -1,0 +1,115 @@
+.features-section {
+    display: flex;
+    gap: 3vw;
+    margin-bottom: 50px;
+
+    img {
+        transform: translateX(-10%);
+        overflow: hidden;
+    }
+    
+    .features-section-text {
+        
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        gap: 6rem;
+    }
+
+    .features-section-text-item {
+        h3 {
+            font-size: 2rem;
+        }
+        p {
+            max-width: 350px;
+            line-height: 3rem;
+            
+        }
+    }
+}
+
+.access-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    margin: 100px 0;
+
+    .access-section-text {
+        text-align: center;
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            margin-top: 30px;
+            max-width: 650px;
+        }
+    }
+}
+
+.supercharge-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    text-align: center;
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .supercharge-section-features {
+        display: flex;
+        
+        
+        gap: 4rem;
+        margin-top: 50px;
+  
+        .supercharge-section-feature {
+            
+            text-align: center;
+            img {
+                margin-bottom: 30px;
+                height: 35px;
+            }
+            h3 {
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+            p {
+                max-width: 350px;
+            }
+        }
+
+    }
+}
+
+.companies-section {
+    margin:100px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.clipboard-section {
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    p {
+        max-width: 650px;
+    }
+
+    .clipboard-section-buttons {
+        margin-top: 30px;
+        display: flex;
+        gap: 3rem;
+    }
+}

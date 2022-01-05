@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) { 
+
+    p {
+        font-size: $fontSizeBodyMedia !important;
+    }
+
+    .header,.snippets-section {
+        padding: 0 30px !important;
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 1440px) { 
+
+    .container {
+        width: 100vw;
+        overflow: hidden;
+    }
+    
+}
+
